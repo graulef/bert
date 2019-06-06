@@ -1,0 +1,15 @@
+First batch: 3 epochs each
+
+  No fine-tuning
+  Fine-tune with Story Cloze only
+  Fine-tune with Backward only
+  Fine-tune with Random NN only
+  Fine-tune with sent2vec on story NN only
+  Fine-tune with USC (universal sentence encoder) on story NN only
+  Fine-tune with USC and NLP features on story NN only
+  
+Second batch:
+  Fine-tune with sent2vec on ending NN only
+  Fine-tune with ending generated using GPT-2
+  Fine-tune with custom mix of above
+  Test best of above with longer training
